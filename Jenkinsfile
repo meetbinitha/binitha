@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git checkout'){
             steps {
-              git branch: 'main', url: 'https://github.com/meetbinitha/demoterra.git'
+              git branch: 'main', url: 'https://github.com/meetbinitha/binitha.git'
             }
         }
         stage('azurelogin') {
